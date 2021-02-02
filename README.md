@@ -45,4 +45,10 @@
 
 # :dizzy: References
 
-:green_book: 
+:green_book: ![](https://github.com/microsoft/MLHyperparameterTuning)
+
+:blue_book: ![](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service?view=azure-ml-py&tabs=python#call-the-service-python)
+
+:blue_book: ![](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service?view=azure-ml-py&tabs=python#call-the-service-python) 
+
+:blue_book: ![](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml?view=azure-ml-py)
