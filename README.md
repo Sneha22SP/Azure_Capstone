@@ -3,19 +3,15 @@
 ![](screenshots/capstone-diagram.png)
 
 
+# :dizzy: Dataset
 
-## Project Set Up and Installation
-*OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
-
-## Dataset
-
-### Overview
+### :dizzy: Overview
 *TODO*: Explain about the data you are using and where you got it from.
 
-### Task
+### :dizzy: Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
 
-### Access
+### :dizzy: Access
 *TODO*: Explain how you are accessing the data in your workspace.
 
 ## Automated ML
