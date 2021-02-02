@@ -1,6 +1,6 @@
-# :dizzy: AZURE MACHINE LEARNING ENGINNER 
+# :dizzy: AZURE MACHINE LEARNING ENGINNER :dizzy: 
 
-*TODO:* Write a short introduction to your project.
+
 
 ## Project Set Up and Installation
 *OPTIONAL:* If your project has any special installation steps, this is where you should put it. To turn this project into a professional portfolio project, you are encouraged to explain how to set up this project in AzureML.
