@@ -1,5 +1,7 @@
 # :dizzy: AZURE MACHINE LEARNING ENGINNER :dizzy: 
 
+![](screenshots/capstone-diagram.png)
+
 
 
 ## Project Set Up and Installation
