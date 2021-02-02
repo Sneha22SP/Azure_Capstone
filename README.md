@@ -56,4 +56,7 @@
 
 
 
-![Made with love in India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)
+
+
+
+  **![Made with love in India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)**
