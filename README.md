@@ -52,3 +52,7 @@
 :collision: [HyperDrive_Overview](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-consume-web-service?view=azure-ml-py&tabs=python#call-the-service-python) 
 
 :collision: [AutoML_Overview](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml?view=azure-ml-py)
+
+
+
+                                  ![Made with love in India](https://madewithlove.now.sh/in?heart=true&template=for-the-badge)
