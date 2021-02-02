@@ -5,16 +5,16 @@
 
 # :dizzy: Dataset
 
-### :dizzy: Overview
+## :dizzy: Overview
 *TODO*: Explain about the data you are using and where you got it from.
 
-### :dizzy: Task
+## :dizzy: Task
 *TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
 
-### :dizzy: Access
+## :dizzy: Access
 *TODO*: Explain how you are accessing the data in your workspace.
 
-## Automated ML
+# :dizzy: Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
 
 ### Results
@@ -22,7 +22,7 @@
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-## Hyperparameter Tuning
+# :dizzy: Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
 
 
@@ -31,14 +31,14 @@
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
-## Model Deployment
+# :dizzy: Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
-## Screen Recording
+# :dizzy: Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 - A working model
 - Demo of the deployed  model
 - Demo of a sample request sent to the endpoint and its response
 
-## Standout Suggestions
+# :dizzy: Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
