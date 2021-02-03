@@ -8,10 +8,13 @@ This project gives us the opportunity to use the knowledge that we have obtained
 # :dizzy: Dataset
 
 ## :dizzy: Overview
-*TODO*: Explain about the data you are using and where you got it from.
+
+In this project, I used the "Heart Failure Prediction" dataset from Kaggle.The dataset contains 12 clinical features of 299 patients.Here "DEATH EVENT" is the target variable, we need to predict the possible death event occured due to heat failure of the patients.With the help of HyperDrive and AutoML will get to know the death rates of the patients.
 
 ## :dizzy: Task
-*TODO*: Explain the task you are going to be solving with this dataset and the features you will be using for it.
+
+
+
 
 ## :dizzy: Access
 *TODO*: Explain how you are accessing the data in your workspace.
