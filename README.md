@@ -18,7 +18,6 @@ The task of this project is to predict the "DEATH_EVENT" of the patients.This pr
 12 clinical features are :- age, anaemia, creatinine_phosphokinare, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking, time.
 
 Target variable :- death_event
-
 ------------- | ----------- 
 Age | Age of the patient
 
