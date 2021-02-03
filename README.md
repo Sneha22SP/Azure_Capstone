@@ -15,9 +15,9 @@ In this project, I used the "Heart Failure Prediction" dataset from Kaggle.The d
 
 The task of this project is to predict the "DEATH_EVENT" of the patients.This problem belongs to classification category.The target variable death event is in the boolean form, with the help of two models will predict the survival rate of the patients due to heart failure.
 
-12 clinical features are :- age, anaemia, creatinine_phosphokinare, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking, time.
+**12 clinical features are** :- age, anaemia, creatinine_phosphokinare, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking, time.
 
-Target variable :- death_event
+**Target variable** :- death_event
 
 
 | Features                    | Description                                              |
