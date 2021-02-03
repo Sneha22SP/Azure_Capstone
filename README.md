@@ -20,7 +20,6 @@ The task of this project is to predict the "DEATH_EVENT" of the patients.This pr
 Target variable :- death_event
 
 ------------- | ----------- 
-
 Age | Age of the patient
 
 anaemia  | Decrease of red blood cells or hemoglobin (Boolean)
