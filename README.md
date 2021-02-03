@@ -26,32 +26,20 @@ Target variable :- death_event
 
 
 
-
-------------- | -----------
-
-Age | Age of the patient
-
-anaemia  | Decrease of red blood cells or hemoglobin (Boolean)
-
-creatinine_phosphokinase | Level of the CPK enzyme in the blood (mcg/L)
-
-diabetes | If the patient has diabetes (Boolean)
-
-ejection_fraction | Percentage of blood leaving the heart at each contraction (percentage)
-
-high_blood_pressure | If the patient has hypertension (Boolean)
-
-platelets | Platelets in the blood (kiloplatelets/mL)
-
-serum_creatinine | Level of serum creatinine in the blood (mg/dL)
-
-serum_sodium | Level of serum sodium in the blood (mEq/L)
-
-sex | Woman or man (binary)
-
-smoking | If the patient smokes or not (Boolean)
-
-time | Follow-up period (days)
+| Features                    | Description                                              |
+| ----------------------------| ---------------------------------------------------------|
+| Age                         | 1 for Male 0 for Female
+|anaemia                      | a condition in which there is a deficiency of red cells or of haemoglobin in the blood, resulting in tired, weakness, shortness of breath, and a                                poor ability to exercise.
+|creatinine_phosphokinase | Level of the CPK enzyme in the blood (mcg/L)
+|diabetes | If the patient has diabetes (Boolean)
+|ejection_fraction | Percentage of blood leaving the heart at each contraction (percentage)
+|high_blood_pressure | If the patient has hypertension (Boolean)
+|platelets | Platelets in the blood (kiloplatelets/mL)
+|serum_creatinine | Level of serum creatinine in the blood (mg/dL)
+|serum_sodium | Level of serum sodium in the blood (mEq/L)
+|sex | Woman or man (binary)
+|smoking | If the patient smokes or not (Boolean)
+|time | Follow-up period (days)
 
 
 
