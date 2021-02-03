@@ -13,6 +13,29 @@ In this project, I used the "Heart Failure Prediction" dataset from Kaggle.The d
 
 ## :dizzy: Task
 
+The task of this project is to predict the "DEATH_EVENT" of the patients.This problem belongs to classification category.The target variable death event is in the boolean form, with the help of two models will predict the survival rate of the patients due to heart failure.
+
+12 clinical features are :- age, anaemia, creatinine_phosphokinare, diabetes, ejection_fraction, high_blood_pressure, platelets, serum_creatinine, serum_sodium, sex, smoking, time.
+
+Target variable :- death_event
+
+------------- | ----------- 
+Age | Age of the patient
+anaemia  | Decrease of red blood cells or hemoglobin (Boolean)
+creatinine_phosphokinase | Level of the CPK enzyme in the blood (mcg/L)
+diabetes | If the patient has diabetes (Boolean)
+ejection_fraction | Percentage of blood leaving the heart at each contraction (percentage)
+high_blood_pressure | If the patient has hypertension (Boolean)
+platelets | Platelets in the blood (kiloplatelets/mL)
+serum_creatinine | Level of serum creatinine in the blood (mg/dL)
+serum_sodium | Level of serum sodium in the blood (mEq/L)
+sex | Woman or man (binary)
+smoking | If the patient smokes or not (Boolean)
+time | Follow-up period (days)
+
+Target Variable | Description 
+------------- | ----------- 
+
 
 
 
