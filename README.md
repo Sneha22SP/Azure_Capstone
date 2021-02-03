@@ -19,34 +19,27 @@ The task of this project is to predict the "DEATH_EVENT" of the patients.This pr
 
 Target variable :- death_event
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
-
 
 | Features                    | Description                                              |
 | ----------------------------| ---------------------------------------------------------|
 | Age                         | 1 for Male 0 for Female
 |anaemia                      | a condition in which there is a deficiency of red cells or of haemoglobin in the blood, resulting in tired, weakness, shortness of breath, and a                                poor ability to exercise.
-|creatinine_phosphokinase | Level of the CPK enzyme in the blood (mcg/L)
-|diabetes | If the patient has diabetes (Boolean)
-|ejection_fraction | Percentage of blood leaving the heart at each contraction (percentage)
-|high_blood_pressure | If the patient has hypertension (Boolean)
-|platelets | Platelets in the blood (kiloplatelets/mL)
-|serum_creatinine | Level of serum creatinine in the blood (mg/dL)
-|serum_sodium | Level of serum sodium in the blood (mEq/L)
-|sex | Woman or man (binary)
-|smoking | If the patient smokes or not (Boolean)
-|time | Follow-up period (days)
+|creatinine_phosphokinase     | (mcg/L):(CPK) or (CK) is a enzyme that catalyzes the reaction of creatine and adenosine triphosphate (ATP),Phosphocreatine created from this                                    reaction is used to supply tissues and cells e.g. brain skeletal muscles, and the heart.
+|diabetes                     |  a metabolic disease that causes high blood sugar. Result in increased hunger, increased thirst,weight loss,frequent urination,blurry                                             vision,extreme fatigue,sores that don’t heal
+|ejection_fraction            | Percentage of blood leaving the heart at each contraction (percentage)
+|high_blood_pressure          | common condition in which the long-term force of the blood against your artery
+|platelets                    | (kiloplatelets/mL): small, colorless cell fragments in our blood that form clots and stop or prevent bleeding.
+|serum_creatinine             | (mg/dL): Level of serum creatinine in the blood
+|serum_sodium                 | (mEq/L): Level of serum sodium in the blood. Reference range for serum sodium is 135-147 mmol/L
+|sex                          | Woman or man (binary)
+|smoking                      | If the patient smokes or not (Boolean)
+|time                         | Follow-up period (days)
 
 
 
-Target Variable | Description 
-
-------------- | ----------- 
-
+|Target Variable | Description                                                      |
+|----------------|------------------------------------------------------------------|
+| DEATH_EVENT    | whether the patient survived or not due to heart failure (Boolean)|
 
 
 
