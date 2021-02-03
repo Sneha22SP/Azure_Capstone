@@ -1,6 +1,8 @@
 # :dizzy: AZURE MACHINE LEARNING ENGINNER :dizzy: 
 
-This project gives us the opportunity to use the knowledge that we have obtained from the Nanodegree program to solve an interesting problem.In this peoject, we will create a two models :- one using AutomatedML(AutoML) and one customized model whose hyperparameters are tuned using HyperDrive.Then, compare the performance of the both models and deploy the best performing model.
+This project gives us the opportunity to use the knowledge that we have obtained from the Nanodegree program to solve an interesting problem.In this project, we will create a two models :- one using AutomatedML(AutoML) and one customized model whose hyperparameters are tuned using HyperDrive.Then, compare the performance of the both models and deploy the best performing model.
+
+
           This project 
 
 ![](screenshots/capstone-diagram.png)
