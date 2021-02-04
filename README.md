@@ -51,7 +51,7 @@ In AutoML part I have registered the dataset in the azure workspace.
 ```Python
 found = False
 key = "Heart Failure Prediction"
-description_text = "Heart Failure Prediction DataSet for Udacity Project 3"
+description_text = "Heart Failure Prediction Dataset for Capstone project"
 if key in ws.datasets.keys(): 
         found = True
         dataset = ws.datasets[key]
