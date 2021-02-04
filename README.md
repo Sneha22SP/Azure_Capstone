@@ -44,7 +44,20 @@ The task of this project is to predict the "DEATH_EVENT" of the patients.This pr
 
 
 ## :dizzy: Access
-*TODO*: Explain how you are accessing the data in your workspace.
+
+In AutoML part I have registered the dataset in the azure workspace.
+
+
+```Python
+found = False
+key = "Heart Failure Prediction"
+description_text = "Heart Failure Prediction DataSet for Udacity Project 3"
+if key in ws.datasets.keys(): 
+        found = True
+        dataset = ws.datasets[key]
+```       
+
+
 
 # :dizzy: Automated ML
 *TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
