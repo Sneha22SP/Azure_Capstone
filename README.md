@@ -66,7 +66,19 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 
 
 # :dizzy: Automated ML
-*TODO*: Give an overview of the `automl` settings and configuration you used for this experiment
+
+|Parameters                     |Value                          |
+|------------------------------ |-------------------------------| 
+|experiment_timeout_minutes     |20                             |
+|max_concurrent_iterations      |5                              |
+|primary_metric | AUC_weighted|
+|task  | Classification|
+|compute_target | "General_cluster" previously created|
+|training_data | dataset registered in Azure Workspace|
+|label_column_name | DEATH_EVENT|
+|enable_early_stopping | True|
+|featurization | auto|
+|debug_log | automl_errors.log|
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
