@@ -45,7 +45,7 @@ The task of this project is to predict the "DEATH_EVENT" of the patients.This pr
 
 ## :dizzy: Access
 
-In AutoML part I have registered the dataset in the azure workspace.
+In AutoML part, I have registered the dataset in the azure workspace.
 
 
 ```Python
@@ -55,8 +55,14 @@ description_text = "Heart Failure Prediction Dataset for Capstone project"
 if key in ws.datasets.keys(): 
         found = True
         dataset = ws.datasets[key]
-```       
+```
 
+In Hyperdrive part, I saved the dataset to my GitHub repository and retrieved the data from a URL using TabularDatasetFactory class in train.py script.
+
+```Python
+data_path = "https://raw.githubusercontent.com/EugeniaSilantjeva/nd00333-capstone/master/heart_failure_clinical_records_dataset.csv"
+ds = TabularDatasetFactory.from_delimited_files(path=data_path)
+```
 
 
 # :dizzy: Automated ML
