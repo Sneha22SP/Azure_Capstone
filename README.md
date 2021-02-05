@@ -98,6 +98,8 @@ if key in ws.datasets.keys():
 
 :collision: [AutoML_Overview](https://docs.microsoft.com/en-us/azure/machine-learning/concept-automated-ml?view=azure-ml-py)
 
+:collision: [Azure_ML_Notebboks](https://github.com/Azure/MachineLearningNotebooks)
+
 
 
 
