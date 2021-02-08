@@ -85,6 +85,8 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+
+
 (need to write about the votingensamble)
 
 
@@ -127,6 +129,11 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
                                        
  
  ```
+ 
+ ### Improvement 
+ 
+To improve model results, we can use k-fold cross validation, we can increase time of the experiment so that we can come up with good algorithms which can be imporved the model further. We can also perform feature selection and engineering and also we can explore different matrics like accuracy, F1-score .
+ 
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
