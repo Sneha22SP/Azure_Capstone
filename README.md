@@ -80,8 +80,52 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 |featurization | auto|
 |debug_log | automl_errors.log|
 
+### Description
+
+
 ### Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
+(need to write about the votingensamble)
+
+
+### Parameters of the fitted model
+
+```
+
+Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFittedSoftVotingClassifier(classification_labels=None,
+                              estimators=[('23',
+                                           Pipeline(memory=None,
+                                                    steps=[('minmaxscaler',
+                                                            MinMaxScaler(copy=True,
+                                                                         feature_range=(0,
+                                                                                        1))),
+                                                           ('extratreesclassifier',
+                                                            ExtraTreesClassifier(bootstrap=True,
+                                                                                 ccp_alpha=0.0,
+                                                                                 class_weight='balanced',
+                                                                                 criterion='gini',
+                                                                                 max_depth=None,
+                                                                                 max_features=None,
+                                                                                 max_leaf_nodes=None,
+                                                                                 max_samples=None,
+                                                                                 m...
+                                                                                 min_samples_split=0.056842105263157895,
+                                                                                 min_weight_fraction_leaf=0.0,
+                                                                                 n_estimators=25,
+                                                                                 n_jobs=1,
+                                                                                 oob_score=True,
+                                                                                 random_state=None,
+                                                                                 verbose=0,
+                                                                                 warm_start=False))],
+                                                    verbose=False))],
+                              flatten_transform=None,
+                              weights=[0.07692307692307693, 0.07692307692307693,
+                                       0.15384615384615385, 0.15384615384615385,
+                                       0.07692307692307693, 0.07692307692307693,
+                                       0.23076923076923078, 0.07692307692307693,
+                                       0.07692307692307693]))
+                                       
+                                       ```
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
