@@ -80,17 +80,23 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 |featurization | auto|
 |debug_log | automl_errors.log|
 
-### Description
+### :dizzy: Description
+
+**automl settings** :- experiment_timeout_minutes - maximum amount of time the experiment can take. So, I set it to 20 minutes to save time. 
+max_concurrent_iterations - maximum number of parallel runs executed on a Automl Compute cluster. As it should be less than or equal to the number of nodes (5) so its set when creating the compute cluster(it is set to 5). The primary metric is Under the Curve Weighted, **AUC_weighted**, to deal with class imbalance as The AUC is an estimate of the probability that a classifier will rank a randomly chosen positive instance higher than a randomly chosen negative instance. For this reason, the AUC is widely thought to be a better measure than a classification error rate based upon a single prior probability or KS statistic threshold.
+
+**AutoMLConfig** :-  This is a binary classification task. Heart Failure "dataset" is imported earlier from the registered dataset in Azure Workspace. The target variable which we need to peredict in this experiment is "DEATH_EVENT". To save time and resources, the enable_early_stopping parameter is set to True.
 
 
-### Results
+
+### :dizzy: Results
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
 
 (need to write about the votingensamble)
 
 
-### Parameters of the fitted model
+### :dizzy: Parameters of the fitted model
 
 ```
 
@@ -130,7 +136,7 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
  
  ```
  
- ### Improvement 
+ ### :dizzy: Improvement 
  
 To improve model results, we can use k-fold cross validation, we can increase time of the experiment so that we can come up with good algorithms which can be imporved the model further. We can also perform feature selection and engineering and also we can explore different matrics like accuracy, F1-score .
  
