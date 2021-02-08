@@ -105,8 +105,9 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 
 # :dizzy: Standout Suggestions
 
-**Convert model to ONNX format** :- The open neural network exchange(OONX) is an open source artifical intelligence ecosystem.
+**Convert model to ONNX format** :- The open neural network exchange(OONX) is an open source artifical intelligence ecosystem.It allows users to interchange models with various ML frameworks and tools.ONNX is a portability platform for models that was created by Microsoft and that allows you to convert models from one framework to another, or even to deploy models to a device (such as an iOS or Android mobile device).
 [ONNX_DOCS](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-existing-model)
+[OONX](https://onnx.ai/)
 # :dizzy: References
 
 :collision: [Hyperparameter_tuning_for_ml_models](https://github.com/microsoft/MLHyperparameterTuning)
