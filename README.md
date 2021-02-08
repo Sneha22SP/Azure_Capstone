@@ -104,7 +104,8 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 - Demo of a sample request sent to the endpoint and its response
 
 # :dizzy: Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+**Convert model to ONNX format** :- The open neural network exchange(OONX) is an open source artifical intelligence ecosystem.
 
 # :dizzy: References
 
