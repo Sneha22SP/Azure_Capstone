@@ -125,7 +125,8 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
                                        0.23076923076923078, 0.07692307692307693,
                                        0.07692307692307693]))
                                        
-                                       ```
+ 
+ ```
 
 *TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
 
