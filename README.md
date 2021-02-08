@@ -113,7 +113,7 @@ ds = TabularDatasetFactory.from_delimited_files(path=data_path)
 
 * We can choose another sklearn classifier rather then logestic regression.We can apply XGBoost or some Bagging and Boosting algorithms.
 
-* 
+* We can choose another sampling policy rather then random sampler, we can choose grid search for betterment.
 # :dizzy: References
 
 :collision: [Hyperparameter_tuning_for_ml_models](https://github.com/microsoft/MLHyperparameterTuning)
