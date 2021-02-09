@@ -101,25 +101,19 @@ max_concurrent_iterations - maximum number of parallel runs executed on a Automl
 ```
 
 Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFittedSoftVotingClassifier(classification_labels=None,
-                              estimators=[('23',
+                              estimators=[('39',
                                            Pipeline(memory=None,
-                                                    steps=[('minmaxscaler',
-                                                            MinMaxScaler(copy=True,
-                                                                         feature_range=(0,
-                                                                                        1))),
-                                                           ('extratreesclassifier',
-                                                            ExtraTreesClassifier(bootstrap=True,
-                                                                                 ccp_alpha=0.0,
-                                                                                 class_weight='balanced',
-                                                                                 criterion='gini',
-                                                                                 max_depth=None,
-                                                                                 max_features=None,
-                                                                                 max_leaf_nodes=None,
-                                                                                 max_samples=None,
-                                                                                 m...
-                                                                                 min_samples_split=0.056842105263157895,
+                                                    steps=[('standardscalerwrapper',
+                                                            <azureml.automl.runtime.shared.model_wrappers.StandardScalerWrapper object at 0x7f80d9a61630>),
+                                                           ('randomforestclassifier',
+                                                            RandomForestClassifier(bootstrap=True,
+                                                                                   ccp_alpha=0.0,
+                                                                                   class_weight=None,
+                                                                                   criterion='gini',
+                                                                                   max_depth=None,
+                                                                                   ma...
                                                                                  min_weight_fraction_leaf=0.0,
-                                                                                 n_estimators=25,
+                                                                                 n_estimators=10,
                                                                                  n_jobs=1,
                                                                                  oob_score=True,
                                                                                  random_state=None,
@@ -127,11 +121,12 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
                                                                                  warm_start=False))],
                                                     verbose=False))],
                               flatten_transform=None,
-                              weights=[0.07692307692307693, 0.07692307692307693,
-                                       0.15384615384615385, 0.15384615384615385,
-                                       0.07692307692307693, 0.07692307692307693,
-                                       0.23076923076923078, 0.07692307692307693,
-                                       0.07692307692307693]))
+                              weights=[0.06666666666666667, 0.06666666666666667,
+                                       0.06666666666666667, 0.06666666666666667,
+                                       0.13333333333333333, 0.06666666666666667,
+                                       0.06666666666666667, 0.13333333333333333,
+                                       0.06666666666666667, 0.06666666666666667,
+                                       0.2]))
                                        
  
  ```
