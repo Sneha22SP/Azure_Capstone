@@ -139,15 +139,15 @@ To improve model results, we can use k-fold cross validation, we can increase ti
 
 **SCREENSHOTS AND RUN WIDGETS **
 
-!()[screenshots/automl1.png]
+![](screenshots/automl1.png)
 
-!()[screenshots/automl2.png]
+![](screenshots/automl2.png)
 
-!()[screenshots/automl3.png]
+![](screenshots/automl3.png)
 
-!()[screenshots/automl4.png]
+![](screenshots/automl4.png)
 
-!()[screenshots/automl5.png]
+![](screenshots/automl5.png)
 
 # :dizzy: Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
