@@ -172,19 +172,28 @@ param_sampling = RandomParameterSampling(
 The model was trained using different combinations of C and max_iter hyperparameters. C is inverse of regularization strength as support vector machines and smaller values    specify stronger regularization. The maximum total number of runs to craete and the maximum numbers of runs to execute concurrently.(Note :- If none, all runs are launched in parallel.The number of concurrent runs is gated on the resources available in the specified compute target. )Need to ensure that the compute target has the available resources for the desired concurrency.
 
 
-### Results
-*TODO*: What are the results you got with your model? What were the parameters of the model? How could you have improved it?
+### :dizzy: Results
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+In the HyperDrive experiment, the best model prediction score is 0.8727777777777778 
+
+Below are the following parameter listed by hyperdrive 
+
+                    ['--C', '0.1', '--max_iter', '500']
+                    Best Run Id:  HD_925d200f-1577-4b18-bf7d-3a79793abdaa_1
+                    AUC_weighted: 0.8727777777777778
+
+### :dizzy: Improvements
+
+I Would like to test with different estimators.
+
+### :dizzy: SCREENSHOTS AND RUN WIDGETS
 
 # :dizzy: Model Deployment
 *TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
 
 # :dizzy: Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-- A working model
-- Demo of the deployed  model
-- Demo of a sample request sent to the endpoint and its response
+
+## https://youtu.be/F4xCr1v7HrY ##
 
 # :dizzy: Standout Suggestions
 
