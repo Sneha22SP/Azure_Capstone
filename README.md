@@ -137,7 +137,8 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
 To improve model results, we can use k-fold cross validation, we can increase time of the experiment so that we can come up with good algorithms which can be imporved the model further. We can also perform feature selection and engineering and also we can explore different matrics like accuracy, F1-score .
  
 
- **SCREENSHOTS AND RUN WIDGETS**
+ ### :dizzy: SCREENSHOTS AND RUN WIDGETS
+ 
 
 ![](screenshots/automl1.png)
 
