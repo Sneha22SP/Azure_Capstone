@@ -156,6 +156,9 @@ To improve model results, we can use k-fold cross validation, we can increase ti
 
 I have choosen Logistic Regression because it is a binary classification algorithm in which dependent variable is binary i,e 1(True,Sucess),0(False,Failure). Goal is to find the best fitting model for independent and dependent variable in the relationship. Independent variable can be continous or binary, also called as logit regression, used in machine learning,deals with probability to measure the relation between dependent and independent variables.
 
+
+RandomParameter Sampling is used to randomly select a value for each hyperparameter, which can be a mix of discrete and continuous values.Here in code we need to search for parameter like "_C" and " _max_iter
+
 ```
 param_sampling = RandomParameterSampling( 
     {
@@ -166,7 +169,7 @@ param_sampling = RandomParameterSampling(
 
   ```
   
- The model was trained using different combinations of C and max_iter hyperparameters. C is inverse of regularization strength. Like in support vector machines, smaller values    specify stronger regularization. max_iter is the maximum number of iterations taken for the solvers to converge
+The model was trained using different combinations of C and max_iter hyperparameters. C is inverse of regularization strength as support vector machines and smaller values    specify stronger regularization. The maximum total number of runs to craete and the maximum numbers of runs to execute concurrently.(Note :- If none, all runs are launched in parallel.The number of concurrent runs is gated on the resources available in the specified compute target. )Need to ensure that the compute target has the available resources for the desired concurrency.
 
 
 ### Results
