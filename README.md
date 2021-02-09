@@ -184,12 +184,25 @@ Below are the following parameter listed by hyperdrive
 
 ### :dizzy: Improvements
 
-I Would like to test with different estimators.
+I Would like to test with different estimators.We can do feature engineering,drop unnecessary column and also would like to wait for more run by hyperdrive.
 
 ### :dizzy: SCREENSHOTS AND RUN WIDGETS
 
+![](screenshots/hypermeter1.png)
+
+![](screenshots/Hypermeter2.png)
+
+![](screenshots/hypermeter3.png)
+
+![](screenshots/hypermeter4.png)
+
+![](screenshots/hypermeter5.png)
+
+
+
 # :dizzy: Model Deployment
-*TODO*: Give an overview of the deployed model and instructions on how to query the endpoint with a sample input.
+
+
 
 # :dizzy: Screen Recording
 
