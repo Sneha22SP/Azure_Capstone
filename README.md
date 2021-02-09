@@ -202,6 +202,28 @@ I Would like to test with different estimators.We can do feature engineering,dro
 
 # :dizzy: Model Deployment
 
+I have deployed best model using automl for my dataset, VotingEnsamble has showm up best model for the Heart_Failure_Prediction dataset.While executing automl downloaded 
+the score.py script and env.yml by using ``` automl_best_run.download_file() ``` and deployed best model using azure container instance(ACI) i,e ``` aci_config = AciWebservice.deploy_configuration(cpu_cores=1, memory_gb=1) ``` Finally,the model was deployed as a webservice and we also got a logs by ```webservice.get_logs()``` Model status was Healthy.
+
+![](screenshots/deployment.png)
+
+To query the endpoint, created a sample input i,e the clinical features of the first three patients in the dataset and converted it to JSON, sent an HTTP POST request to the endpoint.
+
+```
+
+scoring_uri = "http://2916d686-189a-43c4-9622-777c8f480910.southcentralus.azurecontainer.io/score"
+
+df = df.drop(columns=["DEATH_EVENT"])
+
+input_data = json.dumps({
+    'data': df[0:4].to_dict(orient='records')
+})
+
+
+print(input_data)
+
+```
+
 
 
 # :dizzy: Screen Recording
