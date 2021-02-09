@@ -90,10 +90,11 @@ max_concurrent_iterations - maximum number of parallel runs executed on a Automl
 
 
 ### :dizzy: Results
-*TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
+**Results of AutoML** :- The experiment showed that VotingEnsemble is the best performing model with a score = 0.9218579454785403. 
 
-(need to write about the votingensamble description)
+The parameters of the pre-fitted by the model is shown below
+
 
 
 ### :dizzy: Parameters of the fitted model
@@ -136,7 +137,17 @@ Fitted model and its hyperparameters :  ('prefittedsoftvotingclassifier', PreFit
 To improve model results, we can use k-fold cross validation, we can increase time of the experiment so that we can come up with good algorithms which can be imporved the model further. We can also perform feature selection and engineering and also we can explore different matrics like accuracy, F1-score .
  
 
-*TODO* Remeber to provide screenshots of the `RunDetails` widget as well as a screenshot of the best model trained with it's parameters.
+**SCREENSHOTS AND RUN WIDGETS **
+
+!()[screenshots/automl1.png]
+
+!()[screenshots/automl2.png]
+
+!()[screenshots/automl3.png]
+
+!()[screenshots/automl4.png]
+
+!()[screenshots/automl5.png]
 
 # :dizzy: Hyperparameter Tuning
 *TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
