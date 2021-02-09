@@ -151,9 +151,22 @@ To improve model results, we can use k-fold cross validation, we can increase ti
 ![](screenshots/automl5.png)
 
 # :dizzy: Hyperparameter Tuning
-*TODO*: What kind of model did you choose for this experiment and why? Give an overview of the types of parameters and their ranges used for the hyperparameter search
+
+### :dizzy: Description
 
 I have choosen Logistic Regression because it is a binary classification algorithm in which dependent variable is binary i,e 1(True,Sucess),0(False,Failure). Goal is to find the best fitting model for independent and dependent variable in the relationship. Independent variable can be continous or binary, also called as logit regression, used in machine learning,deals with probability to measure the relation between dependent and independent variables.
+
+```
+param_sampling = RandomParameterSampling( 
+    {
+    '--C': choice(0.0001, 0.001, 0.01, 0.1, 1,10,100,1000),
+    '--max_iter': choice(100, 200, 300, 400, 500)
+    }
+)
+
+  ```
+  
+ The model was trained using different combinations of C and max_iter hyperparameters. C is inverse of regularization strength. Like in support vector machines, smaller values    specify stronger regularization. max_iter is the maximum number of iterations taken for the solvers to converge
 
 
 ### Results
