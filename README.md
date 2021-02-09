@@ -93,7 +93,7 @@ max_concurrent_iterations - maximum number of parallel runs executed on a Automl
 *TODO*: What are the results you got with your automated ML model? What were the parameters of the model? How could you have improved it?
 
 
-(need to write about the votingensamble)
+(need to write about the votingensamble description)
 
 
 ### :dizzy: Parameters of the fitted model
