@@ -128,13 +128,20 @@ To improve model results, we can use k-fold cross validation, we can increase ti
  
 
  ### :dizzy: SCREENSHOTS AND RUN WIDGETS
- 
+
+The below screenshot describes the status of the AutoML, still its configuring the best model for the dataset used above.
 
 ![](screenshots/automl1.png)
 
+On 58th run of the AutoML its predicted that VotingEnsemble is the best performing model among the other algorithms.
+
 ![](screenshots/automl2.png)
 
+The below widget shows the AUC_weighted matrix visualization for the dataset.
+
 ![](screenshots/automl3.png)
+
+Below two screenshots describe the various algorithms performed by AutoML .
 
 ![](screenshots/automl4.png)
 
