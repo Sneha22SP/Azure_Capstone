@@ -129,23 +129,25 @@ To improve model results, we can use k-fold cross validation, we can increase ti
 
  ### :dizzy: SCREENSHOTS AND RUN WIDGETS
 
-The below screenshot describes the status of the AutoML, still its configuring the best model for the dataset used above.
+1] The below screenshot describes the status of the AutoML, still its configuring the best model for the dataset used above.
 
 ![](screenshots/automl1.png)
 
-On 58th run of the AutoML its predicted that VotingEnsemble is the best performing model among the other algorithms.
+2] On 58th run of the AutoML its predicted that VotingEnsemble is the best performing model among the other algorithms.
 
 ![](screenshots/automl2.png)
 
-The below widget shows the AUC_weighted matrix visualization for the dataset.
+3] The below widget shows the AUC_weighted matrix visualization for the dataset.
 
 ![](screenshots/automl3.png)
 
-Below two screenshots describe the various algorithms performed by AutoML .
+4] Below two screenshots describe the various algorithms performed by AutoML .
 
 ![](screenshots/automl4.png)
 
 ![](screenshots/automl5.png)
+
+5] Below picture shows the best model with RunID and the score of AUC_Weighted
 
 ![](screenshots/automl6.png)
 
@@ -186,11 +188,19 @@ I Would like to test with different estimators.We can do feature engineering,dro
 
 ### :dizzy: SCREENSHOTS AND RUN WIDGETS
 
+1] The below screenshot describes the best metric performed by hyperdrive. Its performed by tuning hyperparametes.
+
 ![](screenshots/hypermeter1.png)
+
+2] The below picture discribes the status of the Hyperdrive which is completed.
 
 ![](screenshots/Hypermeter2.png)
 
+3] Here it shows 0.87277778 is best scored matrix.
+
 ![](screenshots/hypermeter3.png)
+
+4] Below are the two visualizations for AUC_Weighted matrix.
 
 ![](screenshots/hypermeter4.png)
 
@@ -222,7 +232,11 @@ print(input_data)
 
 ```
 
+The below screenshot describes sending request to the webservice. By coping the RestEndpoint from the endpoint section in azure workspace we can interact with the webservice.
+
 ![](screenshots/deployment1.png)
+
+Below screenshot shows the deployment of the model as a webservice to an azure container instance. It shows that model is Healthy.
 
 ![](screenshots/deployment2.png)
 
