@@ -140,6 +140,8 @@ To improve model results, we can use k-fold cross validation, we can increase ti
 
 ![](screenshots/automl5.png)
 
+![](screenshots/automl6.png)
+
 # :dizzy: Hyperparameter Tuning
 
 ### :dizzy: Description
@@ -168,9 +170,8 @@ In the HyperDrive experiment, the best model prediction score is 0.8727777777777
 
 Below are the following parameter listed by hyperdrive 
 
-                    ['--C', '0.1', '--max_iter', '500']
-                    Best Run Id:  HD_925d200f-1577-4b18-bf7d-3a79793abdaa_1
-                    AUC_weighted: 0.8727777777777778
+![](screenshots/hyperdrivemodel.png)
+                   
 
 ### :dizzy: Improvements
 
@@ -213,6 +214,10 @@ input_data = json.dumps({
 print(input_data)
 
 ```
+
+![](screenshots/deployment1.png)
+
+![](screenshots/deployment2.png)
 
 
 
