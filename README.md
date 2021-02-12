@@ -244,7 +244,7 @@ Below screenshot shows the deployment of the model as a webservice to an azure c
 
 # :dizzy: Screen Recording
 
-## https://youtu.be/F4xCr1v7HrY ##
+## [Heart_Failure_recording](https://drive.google.com/file/d/151ZjlGc7ZIYYRhdMOXgpN0QE9dAiLCU-/view?usp=sharing) ##
 
 # :dizzy: Standout Suggestions
 
