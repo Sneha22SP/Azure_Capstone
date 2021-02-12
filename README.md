@@ -51,7 +51,7 @@ In AutoML part, I have registered the dataset in the azure workspace.
 
 In Hyperdrive part, I saved the dataset to my GitHub repository and retrieved the data from a URL using TabularDatasetFactory class in train.py script.
 
-![](screenshots/dataaccessing.png)
+![](screenshots/data.png)
 
 
 
